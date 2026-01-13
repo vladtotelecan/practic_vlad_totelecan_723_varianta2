@@ -1,5 +1,8 @@
+package model;
 
-class Strafe {
+enum StrafeGrund { TRACK_LIMITS, COLLISION, UNSAFE_RELEASE, SPEEDING_PITLANE }
+
+public class Strafe {
     int id;
     int fahrerId;
     StrafeGrund grund;
